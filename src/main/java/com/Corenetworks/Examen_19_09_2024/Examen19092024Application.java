@@ -21,7 +21,7 @@ public class Examen19092024Application implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		List<Producto> productos = new ArrayList<>();
-		Producto p1 = new Producto("Manzana",10);
+		Producto p1 = new Producto("Manzana",15);
 		Producto p2 = new Producto("Platano",5);
 		productos.add(p1);
 		productos.add(p2);
